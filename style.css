@@ -1,0 +1,7 @@
+.hero-pattern {
+    background-color: #1f2937;
+    background-image: url(assets/movers.avif);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
