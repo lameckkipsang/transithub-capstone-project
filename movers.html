@@ -44,6 +44,26 @@
                 <p class="text-sm text-gray-500">The assigned moving company arrives on schedule to pack and transport.</p>
             </div>
         </div>
+        <br>
+        <br>
+        <div class="bg-white max-w-3xl mx-auto p-8 rounded-xl shadow-lg border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">Instant Quotation Calculator</h2>
+            <input type="radio" name="house_size" id="size-bedsitter" class="peer/bedsitter hidden" checked>
+            <input type="radio" name="house_size" id="size-1bed" class="peer/1bed hidden">
+            <input type="radio" name="house_size" id="size-2bed" class="peer/2bed hidden">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+                <label for="size-bedsitter" class="cursor-pointer border-2 rounded-xl py-4 px-4 font-bold text-gray-500 hover:bg-gray-50 peer-checked/bedsitter:border-blue-600 peer-checked/bedsitter:bg-blue-50 peer-checked/bedsitter:text-blue-900 transition">
+                    Bedsitter
+                </label>
+                <label for="size-1bed" class="cursor-pointer border-2 rounded-xl py-4 px-4 font-bold text-gray-500 hover:bg-gray-50 peer-checked/1bed:border-blue-600 peer-checked/1bed:bg-blue-50 peer-checked/1bed:text-blue-900 transition">
+                    1 Bedroom
+                </label>
+                <label for="size-2bed" class="cursor-pointer border-2 rounded-xl py-4 px-4 font-bold text-gray-500 hover:bg-gray-50 peer-checked/2bed:border-blue-600 peer-checked/2bed:bg-blue-50 peer-checked/2bed:text-blue-900 transition">
+                    2 Bedroom
+                </label>
+            </div>
+        </div>
+
 
         <a href="login.html" class="inline-block mt-12 bg-gray-900 text-white px-8 py-3 rounded-lg font-bold hover:bg-gray-800 shadow-md">Start Moving Process</a>
     </main>
