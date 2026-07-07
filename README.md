@@ -18,3 +18,7 @@ This project is built strictly using core web technologies:
 *   **HTML5:** Use of HTML tags to create a  functional website.
 *   **Tailwind CSS (v4 via CDN):** For better responsive styling.
 *   **CSS:** Custom CSS styling using the style.css file.
+## Website Preview
+* **Home Page:** ![Home Page](assets/homepage.png)
+* **Services:** ![Services Rendered](assets/carhiringpage.png)
+* **Contact Section:** ![Contact Us](assets/contact.png)
