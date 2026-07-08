@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="text-gray-800 font-sans h-full flex flex-col overflow-x-hidden">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <a href="index.html" class="flex flex-row items-center gap-3 flex-shrink-0 font-bold text-xl tracking-tight text-blue-900">
+                    <img src="assets/logo.png" alt="TransitHub Logo" class="h-10 w-10 rounded-full object-cover border border-gray-200 shadow-sm">
+                    TransitHub  Solutions
+                </a>
+                <div class="hidden md:flex space-x-6 font-semibold text-sm items-center">
+                    <a href="index.html" class="text-blue-600 transition">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 transition">About Us</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+                    <a href="login.html" class="text-gray-700 hover:text-blue-600 transition ml-4">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="flex-grow max-w-4xl mx-auto px-4 py-12 w-full">
+        <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-2xl mx-auto">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4 border-b pb-2">Confirm Payment</h2>
+            <div class="bg-green-50 border border-green-200 text-green-800 p-4 rounded-lg mb-6">
+                <p class="font-semibold text-lg mb-1">Mobile Money Payment (M-Pesa)</p>
+                <p class="text-sm">To secure your booking, please send the total quotation amount corresponding to your house size to the number below:</p>
+                <div class="mt-3 text-2xl font-bold tracking-widest text-green-900 bg-white inline-block px-4 py-2 border border-green-300 rounded">
+                    +254 725 713 859
+                </div>
+            </div>
+            <form action="login.html" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Enter M-Pesa Transaction Code</label>
+                    <input type="text" required class="w-full px-4 py-3 border rounded-lg focus:ring-blue-500 focus:border-blue-500 uppercase font-mono" placeholder="e.g. QKT5ABC123">
+                    <p class="text-xs text-gray-500 mt-1">We will verify this code to dispatch your movers.</p>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-lg hover:bg-blue-700 transition shadow-md mt-4 text-lg">
+                    Confirm Payment & Continue
+                </button>
+            </form>        
+        </div>
+    </main>
+</body>
+</html>
