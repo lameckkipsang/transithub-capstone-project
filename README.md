@@ -22,3 +22,5 @@ This project is built strictly using core web technologies:
 * **Home Page:** ![Home Page](assets/homepage.png)
 * **Services:** ![Services Rendered](assets/carhiringpage.png)
 * **Contact Section:** ![Contact Us](assets/contact.png)
+## Figma Design
+* [Figma Link Design](https://www.figma.com/design/BAeXlGBce3sNBA5zSVW0ST/TransitHub-Solutions?node-id=0-1&t=uXIjPWtOwBFeOJTg-1)
